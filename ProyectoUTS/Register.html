@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Usuario</title>
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=close" /> -->
+    <link rel="stylesheet" href="/css/register.css">
+</head>
+<body>
+    <div class="register-container">
+        <div class="head">
+          <h2>Crea</h2>
+          <h2>Una Cuenta</h2>
+        </div>
+          <form class="form">
+            <label for="username">Usuario</label>
+            <input type="text" id="username" placeholder="Ingrese el Usuario">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Ingrese el Correo">
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" placeholder="Ingrese la Contraseña">
+            <label for="confirmPassword">Contraseña</label>
+            <input type="password" id="confirmPassword" placeholder="Ingrese la Contraseña">
+            <button class="register"  type="submit">Registrarme</button>            
+          </form>
+
+          <div>
+            O puedes registarte con
+          </div>
+          <!-- Necesito dos botones para opcion como registro por google o por otro correo -->
+            <div class="links">
+                <button class="another" type="submit"> 
+                    <span style="color:#395b22;">
+                        <img src="src/registerSvg.svg" alt="">
+                    </span>
+                    Registrarme con correo institucional</button>            
+                <button class="another" type="submit">Registrarme con google</button>            
+            </div>
+
+      </div>
+      <div class="closeButton"> 
+        <span>
+            <a href="/Index.html">
+                <img src="src/closeSVG.svg" alt="close">
+            </a>
+        </span>
+      </div>
+</body>
+</html>

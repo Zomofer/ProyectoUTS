@@ -1,0 +1,93 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 100vh;
+    background-color: #c3d730;
+  }
+
+  .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .register-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+  .head {
+    border-bottom: #ffffff 2px solid;
+    color: #ffffff;
+    font-size: 36px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+  }
+  h2 {
+    padding-bottom: 0px;
+    margin: 0px;
+  }
+  
+  .form {
+    margin: 50px 0px;
+  }
+
+  label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .register {
+    margin-top: 20px;
+    width: 50%;
+    background: #395b22;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .another {
+    margin-top: 15px;
+    width: 95%;
+    background: #fff;
+    color: #395b22;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  button:hover {
+    background: #45a049;
+  }

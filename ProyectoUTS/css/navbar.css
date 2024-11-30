@@ -1,0 +1,75 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #4a4a4a;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .header {
+    background: #C3D730;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .header .profile-icon img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #C3D730;
+    padding: 10px 0;
+  }
+  
+  .nav-item {
+    text-align: center;
+    color: #4a4a4a;
+    text-decoration: none;
+    font-size: 12px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-item span {
+    display: block;
+    font-size: 18px;
+  }
+  
+  /* Estilo del elemento activo */
+  .nav-item.active {
+    color: #4caf50;
+    font-weight: bold;
+  }
+  .nav-item.active>span {
+    transform: scale(2.5);
+    margin-bottom: 25px;
+    /* scale: 3.5; */
+    /* background: #ffffff; */
+    border: #fff solid 2px;
+    border-radius: 100%;
+  }
+  
+ .containerEmpty{
+    background-color: black;
+    width: 25%;
+}
+
+.container{
+    width: 50%;
+}

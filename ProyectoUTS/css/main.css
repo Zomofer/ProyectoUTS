@@ -1,0 +1,112 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Logo */
+  .logo img {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  /* Tarjeta de login */
+  .login-card {
+    background: #d1f4a9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-card h2 {
+    margin-bottom: 20px;
+    color: #4a4a4a;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #4a4a4a;
+  }
+  
+  input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .links {
+    text-align: right;
+    margin-bottom: 15px;
+  }
+  
+  .links a {
+    color: #4caf50;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  button {
+    width: 100%;
+    background: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #45a049;
+  }
+  
+  .register-link {
+    display: block;
+    margin-top: 15px;
+    color: #4caf50;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .register-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media Query */
+  @media (max-width: 480px) {
+    .login-container {
+      padding: 10px;
+    }
+  
+    .login-card {
+      padding: 15px;
+    }
+  
+    input, button {
+      font-size: 14px;
+    }
+  
+    .links a, .register-link {
+      font-size: 12px;
+    }
+  }
+  

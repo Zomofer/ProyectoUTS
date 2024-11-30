@@ -1,0 +1,19 @@
+.main{
+    color: #bcbcbc;
+    height: 100%;
+    padding: 10px 20px;
+}
+.main>span{
+    color: #bcbcbc;
+    font-size: 36px;
+}
+.table{
+    font-size: 12px;
+    padding: 5px;
+    border: #bcbcbc solid 1px;
+    border-radius: 15px;
+    background: #eaeaea;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
